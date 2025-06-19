@@ -34,7 +34,7 @@ body {
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
-    color: var(--primary-blue);
+    color:  #1C2752;
 }
 
 h1 {
@@ -53,12 +53,12 @@ h3 {
 }
 
 .text-orange {
-    color: var(--primary-orange);
+    color: #F58220;
 }
 
 /* Buttons */
 .btn-primary {
-    background-color: var(--primary-orange);
+    background-color: #F58220;
     color: white;
     border: none;
     padding: 12px 24px;
@@ -73,14 +73,14 @@ h3 {
 }
 
 .btn-primary:hover {
-    background-color: #e5610a;
+    background-color: #F58220;
     transform: translateY(-2px);
 }
 
 .btn-outline {
     background-color: transparent;
-    color: var(--primary-orange);
-    border: 2px solid var(--primary-orange);
+    color: #F58220;
+    border: 2px solid #F58220;
     padding: 12px 24px;
     border-radius: 8px;
     font-weight: 600;
@@ -92,12 +92,12 @@ h3 {
 }
 
 .btn-outline:hover {
-    background-color: var(--primary-orange);
+    background-color: #F58220;
     color: white;
 }
 
 .btn-cta {
-    background-color: var(--primary-orange);
+    background-color: #F58220;
     color: white;
     border: none;
     padding: 8px 16px;
@@ -109,7 +109,7 @@ h3 {
 }
 
 .btn-cta:hover {
-    background-color: #e5610a;
+    background-color: #F58220;
 }
 
 /* Header */
@@ -392,7 +392,8 @@ h3 {
 }
 
 .hero-nav-link:hover {
-    color: #F58220;
+    /*color: #F58220;*/
+    color: #1C2752;
 }
 
 .hamburger {
@@ -425,13 +426,15 @@ h3 {
     .navbar .menu {
       display: none;
       flex-direction: column;
-      /*background-color: #1B224B;*/
+      background-color: #F58220;
       position: absolute;
       top: 152px;
-      left: 20px;
+      left: 100px;
       width: 200px;
+      height: 180px;
       border-radius: 5px;
-      gap: 0.8rem;
+      gap: 1.2rem;
+      text-align: center;
     }
 
     .navbar .menu.active {
@@ -456,12 +459,13 @@ h3 {
       .navbar .menu {
         display: none;
         flex-direction: column;
-        /*background-color: #1B224B;*/
+        background-color: #F58220;
         position: absolute;
         top: 200px;
         /*top: 150px;*/
         left: 20px;
         width: 200px;
+        height: 160px;
         border-radius: 5px;
         gap: 0.8rem;
       } 
@@ -476,7 +480,7 @@ h3 {
       .navbar .menu {
         display: none;
         flex-direction: column;
-        /*background-color: #1B224B;*/
+        background-color: #F58220;
         position: absolute;
         top: 260px;
         /*top: 150px;*/
@@ -495,7 +499,7 @@ h3 {
       .navbar .menu {
         display: none;
         flex-direction: column;
-        /*background-color: #1B224B;*/
+        background-color: #F58220;
         position: absolute;
         top: 280px;
         left: 20px;
@@ -513,7 +517,7 @@ h3 {
       .navbar .menu {
         display: none;
         flex-direction: column;
-        /*background-color: #1B224B;*/
+        background-color: #F58220;
         position: absolute;
         top: 260px;
         left: 20px;
@@ -629,7 +633,7 @@ h3 {
     .hero-middle-container {
         flex-direction: column;
         gap: 2rem;
-        padding: 130px 10px 0px 10px;
+        padding: 0px 10px 0px 10px;
     }
 
     .hero-img-section img {
