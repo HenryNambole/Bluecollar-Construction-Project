@@ -1394,6 +1394,11 @@ h3 {
         padding: 10px;
     }
 
+    .legacy-checkmark img {
+        width: 20px;
+        height: 20px;
+    }
+
 
 }
 
