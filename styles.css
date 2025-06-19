@@ -1394,7 +1394,7 @@ h3 {
         padding: 10px;
     }
 
-    .legacy-checkmark img {
+    .legacy-checkmark .checkmark-title img {
         width: 20px;
         height: 20px;
     }
