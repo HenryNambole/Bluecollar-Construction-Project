@@ -393,7 +393,8 @@ h3 {
 
 .hero-nav-link:hover {
     /*color: #F58220;*/
-    color: #1C2752;
+    /*color: #1C2752;*/
+    color: #ffffff;
 }
 
 .hamburger {
